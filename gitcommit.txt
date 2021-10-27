@@ -1,0 +1,249 @@
+
+antonior@DESKTOP-ADE30UM MINGW64 /c/P0/code/html&css/AutoShop/portalaccesoriosautos (main)
+$ git init
+Reinitialized existing Git repository in C:/P0/code/html&css/AutoShop/portalaccesoriosautos/.git/
+
+antonior@DESKTOP-ADE30UM MINGW64 /c/P0/code/html&css/AutoShop/portalaccesoriosautos (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        assets/
+        css/
+        images/
+        index.html
+        inicio.html
+        js/
+        product-detail.html
+        products.html
+        toyota.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+antonior@DESKTOP-ADE30UM MINGW64 /c/P0/code/html&css/AutoShop/portalaccesoriosautos (main)
+$ git init
+Reinitialized existing Git repository in C:/P0/code/html&css/AutoShop/portalaccesoriosautos/.git/
+
+antonior@DESKTOP-ADE30UM MINGW64 /c/P0/code/html&css/AutoShop/portalaccesoriosautos (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        assets/
+        css/
+        images/
+        index.html
+        inicio.html
+        js/
+        product-detail.html
+        products.html
+        toyota.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+antonior@DESKTOP-ADE30UM MINGW64 /c/P0/code/html&css/AutoShop/portalaccesoriosautos (main)
+$ git add .
+warning: LF will be replaced by CRLF in assets/car_protected.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in assets/vector-car-sharing-cars.svg.
+The file will have its original line endings in your working directory
+error: open("images/toyota/autos/rav4/89563e5-5d9ac1a-c381546-62f036f-b1355ae-ac9c6c7-dadac86-fa20e07-515b864-1c72364-f637c81-d8f7dd1-b67067d-c464953-6a4046e-1f6a32a-7243d76-ad2bdea-cc3759a-9113a9b-ed03101-ce0bb4a-2a7be81-2.png"): Filename too long
+error: unable to index file 'images/toyota/autos/rav4/89563e5-5d9ac1a-c381546-62f036f-b1355ae-ac9c6c7-dadac86-fa20e07-515b864-1c72364-f637c81-d8f7dd1-b67067d-c464953-6a4046e-1f6a32a-7243d76-ad2bdea-cc3759a-9113a9b-ed03101-ce0bb4a-2a7be81-2.png'
+fatal: adding files failed
+
+antonior@DESKTOP-ADE30UM MINGW64 /c/P0/code/html&css/AutoShop/portalaccesoriosautos (main)
+$ ^C
+
+antonior@DESKTOP-ADE30UM MINGW64 /c/P0/code/html&css/AutoShop/portalaccesoriosautos (main)
+$ ^C
+
+antonior@DESKTOP-ADE30UM MINGW64 /c/P0/code/html&css/AutoShop/portalaccesoriosautos (main)
+$ git init
+Reinitialized existing Git repository in C:/P0/code/html&css/AutoShop/portalaccesoriosautos/.git/
+
+antonior@DESKTOP-ADE30UM MINGW64 /c/P0/code/html&css/AutoShop/portalaccesoriosautos (main)
+$ git satus
+git: 'satus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+antonior@DESKTOP-ADE30UM MINGW64 /c/P0/code/html&css/AutoShop/portalaccesoriosautos (main)
+$ git satus
+git: 'satus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+antonior@DESKTOP-ADE30UM MINGW64 /c/P0/code/html&css/AutoShop/portalaccesoriosautos (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        assets/
+        css/
+        images/
+        index.html
+        inicio.html
+        js/
+        product-detail.html
+        products.html
+        toyota.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+antonior@DESKTOP-ADE30UM MINGW64 /c/P0/code/html&css/AutoShop/portalaccesoriosautos (main)
+$ git add .
+warning: LF will be replaced by CRLF in assets/car_protected.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in assets/vector-car-sharing-cars.svg.
+The file will have its original line endings in your working directory
+error: open("images/toyota/autos/rav4/89563e5-5d9ac1a-c381546-62f036f-b1355ae-ac9c6c7-dadac86-fa20e07-515b864-1c72364-f637c81-d8f7dd1-b67067d-c464953-6a4046e-1f6a32a-7243d76-ad2bdea-cc3759a-9113a9b-ed03101-ce0bb4a-2a7be81-2.png"): Filename too long
+error: unable to index file 'images/toyota/autos/rav4/89563e5-5d9ac1a-c381546-62f036f-b1355ae-ac9c6c7-dadac86-fa20e07-515b864-1c72364-f637c81-d8f7dd1-b67067d-c464953-6a4046e-1f6a32a-7243d76-ad2bdea-cc3759a-9113a9b-ed03101-ce0bb4a-2a7be81-2.png'
+fatal: adding files failed
+
+antonior@DESKTOP-ADE30UM MINGW64 /c/P0/code/html&css/AutoShop/portalaccesoriosautos (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        assets/
+        css/
+        images/
+        index.html
+        inicio.html
+        js/
+        product-detail.html
+        products.html
+        toyota.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+antonior@DESKTOP-ADE30UM MINGW64 /c/P0/code/html&css/AutoShop/portalaccesoriosautos (main)
+$ git add .
+warning: LF will be replaced by CRLF in assets/car_protected.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in assets/vector-car-sharing-cars.svg.
+The file will have its original line endings in your working directory
+
+antonior@DESKTOP-ADE30UM MINGW64 /c/P0/code/html&css/AutoShop/portalaccesoriosautos (main)
+$ git commit -m "1.0.Versión git y publicación netlify"
+[main 72f0b40] 1.0.Versión git y publicación netlify
+ 90 files changed, 5828 insertions(+)
+ create mode 100644 assets/car_protected.svg
+ create mode 100644 assets/car_sales.svg
+ create mode 100644 assets/favicon-v1.png
+ create mode 100644 assets/undraw_creative_team_r90h.svg
+ create mode 100644 assets/undraw_different_love_a3rg.svg
+ create mode 100644 assets/vector-car-sharing-cars.svg
+ create mode 100644 css/app.css
+ create mode 100644 css/apptoyota.css
+ create mode 100644 css/grid.css
+ create mode 100644 css/index.css
+ create mode 100644 images/facias/13034.jpg
+ create mode 100644 images/facias/2626.jpg
+ create mode 100644 images/facias/6112.jpg
+ create mode 100644 images/faros/5f58e6d52e291-79be40ff-a491-4476-a2fc-ed2ec21f7a49-1600x1600.jpg
+ create mode 100644 images/faros/61WbUZF8oKL.jpg
+ create mode 100644 images/faros/63ad20f5-faf2-4bdc-8070-7cacf7d973da.49f5420db7188eeb9c603b3e33e000cc.webp
+ create mode 100644 images/faros/faro_luz.jpg
+ create mode 100644 images/localizadorvehicular/D_NQ_NP_736091-MLM46351672113_062021-O.jpg
+ create mode 100644 images/localizadorvehicular/D_NQ_NP_858449-MLM46369668008_062021-O.jpg
+ create mode 100644 images/localizadorvehicular/Gps-Tracker-Localizador-Vehicular-Plataforma-Gratis-Tk103b-20200423030650.4917050015.jpg
+ create mode 100644 images/localizadorvehicular/gps-tracker-localizador-vehicular-celularymas-celulares-y-tablets.jpg
+ create mode 100644 images/nissan/autos/np300/Nissan-NP300-Frontier-Version-1.jpg
+ create mode 100644 images/nissan/autos/np300/nissan-np300-frontier-2020-2022-1619079373.8772006.png
+ create mode 100644 images/nissan/autos/np300/nissan-np300-frontier_f.jpg
+ create mode 100644 images/nissan/autos/np300/nissannp300_imgauto_1313.jpg
+ create mode 100644 images/nissan/kicks/camarareversa/2087-large_default.jpg
+ create mode 100644 images/nissan/kicks/camarareversa/D_NQ_NP_931340-MLM43182053092_082020-O.jpg
+ create mode 100644 images/nissan/kicks/camarareversa/kicks-a-scaled.jpg
+ create mode 100644 images/nissan/kicks/camarareversa/kicks.jpg
+ create mode 100644 images/nissan/kicks/camarareversa/maxresdefault.jpg
+ create mode 100644 images/nissan/np300/biceles/D_NQ_NP_902920-MLM27851278606_072018-O.jpg
+ create mode 100644 images/nissan/np300/biceles/D_NQ_NP_913288-MLM41332303804_042020-O.jpg
+ create mode 100644 images/nissan/np300/biceles/juego-de-biceles-de-rejilla-cromados-con-perfil-led-para-pick-up-np300-d23-frontier-np300-d23.jpg
+ create mode 100644 images/nissan/np300/burrera/66459567_10161904742835507_7140513541986975744_n_1200x1200.jpg
+ create mode 100644 images/nissan/np300/burrera/D_870730-MLM45333042267_032021-O.jpg
+ create mode 100644 images/nissan/np300/burrera/D_NQ_NP_727015-MLM43643682371_102020-O.jpg
+ create mode 100644 images/nissan/np300/burrera/D_NQ_NP_786714-MLM31229989026_062019-O.jpg
+ create mode 100644 images/nissan/np300/burrera/D_NQ_NP_892377-MLM25611792341_052017-O.jpg
+ create mode 100644 images/nissan/np300/burrera/c49c8e68-d981-49af-ac41-3b0605ca9446_1024x1024.jpg
+ create mode 100644 images/nissan/np300/faros/D_NQ_NP_736969-MLM44548497477_012021-O.webp
+ create mode 100644 images/nissan/np300/faros/D_NQ_NP_800036-MLM31235749761_062019-O.jpg
+ create mode 100644 images/nissan/np300/faros/D_NQ_NP_907755-MLM42521098838_072020-O.jpg
+ create mode 100644 images/toyota/autos/hilux/03_1.jpg
+ create mode 100644 images/toyota/autos/hilux/07_1.jpg
+ create mode 100644 images/toyota/autos/hilux/HILUX21_0.jpg
+ create mode 100644 images/toyota/autos/hilux/Hilux_Blanco18.jpg
+ create mode 100644 images/toyota/autos/hilux/Hilux_Blanco31.jpg
+ create mode 100644 images/toyota/autos/hilux/toyota-hilux-gr-sport-2450911.jpg
+ create mode 100644 images/toyota/autos/hilux/toyotahilux.jfif
+ create mode 100644 images/toyota/autos/hilux/toyotahilux.jpg
+ create mode 100644 images/toyota/autos/rav4/02_5.jpg
+ create mode 100644 images/toyota/autos/rav4/89563e5-5d9ac1a.png
+ create mode 100644 images/toyota/autos/rav4/abd03b8cc9fbc63ab9fe3f446f4300e6198964f2.png
+ create mode 100644 images/toyota/autos/rav4/hero_image_rav4hybrid.png
+ create mode 100644 images/toyota/autos/rav4/rav4-cover.png
+ create mode 100644 images/toyota/autos/sienna/SiennaRT_V_a8ed8371411a488e8f5a3033b48aec01.jpg
+ create mode 100644 images/toyota/autos/sienna/Sienna_versionXLE_2.png
+ create mode 100644 images/toyota/autos/sienna/sienna-hybrid.png
+ create mode 100644 images/toyota/autos/sienna/sienna2.webp
+ create mode 100644 images/toyota/hilux/camarareversa/4877-tm_thickbox_default.jpg
+ create mode 100644 images/toyota/hilux/camarareversa/5232-tm_thickbox_default.jpg
+ create mode 100644 images/toyota/hilux/camarareversa/5233-tm_thickbox_default.jpg
+ create mode 100644 images/toyota/hilux/camarareversa/5235-tm_thickbox_default.jpg
+ create mode 100644 images/toyota/hilux/camarareversa/5245-tm_thickbox_default.jpg
+ create mode 100644 images/toyota/hilux/camarareversa/D_NQ_NP_698884-MLM45483064009_042021-O.jpg
+ create mode 100644 images/toyota/hilux/camarareversa/WhatsApp-Image-2020-11-13-at-20.57.23.jpeg
+ create mode 100644 images/toyota/hilux/camarareversa/WhatsApp-Image-2020-11-13-at-20.57.24.jpeg
+ create mode 100644 images/toyota/hilux/camarareversa/hilux-1.jpg
+ create mode 100644 images/toyota/hilux/camarareversa/maxresdefault.jpg
+ create mode 100644 images/toyota/logo/4-57a1.jpg
+ create mode 100644 images/toyota/logo/816QLHrQq9L._AC_SL1500_.jpg
+ create mode 100644 images/toyota/logo/png-transparent-toyota-logo-toyota-rav4-car-honda-logo-and-use-toyota-logo-miscellaneous-emblem-text.png
+ create mode 100644 images/toyota/logo/png-transparent-toyota-tundra-car-toyota-hilux-scion-toyota-text-trademark-logo.png
+ create mode 100644 images/toyota/sienna/antifaz/D_NQ_NP_623269-MLM42941355463_072020-O.jpg
+ create mode 100644 images/toyota/sienna/antifaz/D_NQ_NP_710705-MLM45457363345_042021-O.jpg
+ create mode 100644 images/toyota/sienna/antifaz/D_NQ_NP_968074-MLM45457318920_042021-O.jpg
+ create mode 100644 images/toyota/sienna/pantalla/5e7e782128e0c-7ee4717a-9e9a-4bce-940f-c5a0c4376a5b-1600x1600.jpg
+ create mode 100644 images/toyota/sienna/pantalla/D_NQ_NP_623732-MLM31232168115_062019-O.jpg
+ create mode 100644 images/toyota/sienna/pantalla/D_NQ_NP_726040-MLM31232794639_062019-O.webp
+ create mode 100644 index.html
+ create mode 100644 inicio.html
+ create mode 100644 js/app.js
+ create mode 100644 js/index.js
+ create mode 100644 js/inicio.js
+ create mode 100644 js/product-detail.js
+ create mode 100644 js/products.js
+ create mode 100644 js/toyotainicio.js
+ create mode 100644 product-detail.html
+ create mode 100644 products.html
+ create mode 100644 toyota.html
+
+antonior@DESKTOP-ADE30UM MINGW64 /c/P0/code/html&css/AutoShop/portalaccesoriosautos (main)
+$ git config --global user.email antonio.rojas20001@gmail.com
+
+antonior@DESKTOP-ADE30UM MINGW64 /c/P0/code/html&css/AutoShop/portalaccesoriosautos (main)
+$ git config --global user.name marcoantoniorojasp0
+
+antonior@DESKTOP-ADE30UM MINGW64 /c/P0/code/html&css/AutoShop/portalaccesoriosautos (main)
+$ git add .
+
+antonior@DESKTOP-ADE30UM MINGW64 /c/P0/code/html&css/AutoShop/portalaccesoriosautos (main)
+$ git commit -m  "1.0.Versión git y publicación netlify"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+antonior@DESKTOP-ADE30UM MINGW64 /c/P0/code/html&css/AutoShop/portalaccesoriosautos (main)
+$
