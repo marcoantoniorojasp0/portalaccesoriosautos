@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="./assets/favicon-v1.png" rel="shortcut icon" type="image/png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AuTuning</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- boxicons -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- app css -->
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/app.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header>
+        <!-- mobile menu -->
+        <div class="mobile-menu bg-second">
+            <a href="#" class="mb-logo">AuTuning</a>
+            <span class="mb-menu-toggle" id="mb-menu-toggle">
+        <i class='bx bx-menu'></i>
+      </span>
+        </div>
+        <!-- end mobile menu -->
+        <!-- main header -->
+        <div class="header-wrapper" id="header-wrapper">
+            <span class="mb-menu-toggle mb-menu-close" id="mb-menu-close">
+        <i class='bx bx-x'></i>
+      </span>
+            <!-- top header -->
+            <div class="bg-second">
+                <div class="top-header container">
+                    <ul class="devided">
+                        <li>
+                            <a href="#">+5584603044</a>
+                        </li>
+                        <li>
+                            <a href="#">autuningmexico@gmail.com</a>
+                        </li>
+                    </ul>
+                    <ul class="devided">
+                        <li class="dropdown">
+                            <a href="">Antonio</a>
+                            <i class='bx bxs-chevron-down'></i>
+                            <ul class="dropdown-content">
+                                <li><a href="#">Perfil</a></li>
+                                <li><a href="#">Favoritos</a></li>
+                                <li><a href="#">Salir</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="">EN</a>
+                            <i class='bx bxs-chevron-down'></i>
+                            <ul class="dropdown-content">
+                                <li><a href="#">ES</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Ordenar</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end top header -->
+            <!-- mid header -->
+            <div class="bg-main">
+                <div class="mid-header container">
+                    <a href="#" class="logo">AuTuning</a>
+                    <div class="search">
+                        <input type="text" placeholder="Buscar Producto">
+                        <i class='bx bx-search-alt'></i>
+                    </div>
+                    <ul class="user-menu">
+                        <li><a href="#"><i class='bx bx-bell'></i></a></li>
+                        <li><a href="#"><i class='bx bx-user-circle'></i></a></li>
+                        <li><a href="#"><i class='bx bx-cart'></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end mid header -->
+            <!-- bottom header -->
+            <div class="bg-second">
+                <div class="bottom-header container">
+                    <ul class="main-menu">
+                        <li><a href="./">Inicio</a></li>
+                        <!-- mega menu -->
+                        <li class="mega-dropdown">
+                            <a href="./products.html" _target="_blank">Tienda<i class='bx bxs-chevron-down'></i></a>
+                            <div class="mega-content">
+                                <div class="row">
+                                    <div class="col-3 col-md-12">
+                                        <div class="box">
+                                            <h3>Audio para Vehículos</h3>
+                                            <ul>
+                                                <li><a href="#">Reproductores</a></li>
+                                                <li><a href="#">Pantallas</a></li>
+                                                <li><a href="#">Controles Remotos</a></li>
+                                                <li><a href="#">Cables y Conectores</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-md-12">
+                                        <div class="box">
+                                            <h3>Seguridad Vehicular</h3>
+                                            <ul>
+                                                <li><a href="#">Alarmas y Accesorios</a></li>
+                                                <li><a href="#">Localizadores Vehiculares</a></li>
+                                                <li><a href="#">Sirenas de Alarmas</a></li>
+                                                <li><a href="#">Lingas y Candados</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-md-12">
+                                        <div class="box">
+                                            <h3>Carrocería</h3>
+                                            <ul>
+                                                <li><a href="#">Parrillas</a></li>
+                                                <li><a href="#">Facias</a></li>
+                                                <li><a href="#">Salpicaderas</a></li>
+                                                <li><a href="#">Cofres</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-md-12">
+                                        <div class="box">
+                                            <h3>Iluminación Autos y Camionetas</h3>
+                                            <ul>
+                                                <li><a href="#">Faros Auxiliares</a></li>
+                                                <li><a href="#">Faros y Kits Delanteros</a></li>
+                                                <li><a href="#">Calaveras</a></li>
+                                                <li><a href="#">Focos y Faros Direccionales</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row img-row">
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="./images/camarareversahilux/hilux-1.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="./images/localizadorvehicular/D_NQ_NP_736091-MLM46351672113_062021-O.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="./images/facias/2626.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="./images/faros/61WbUZF8oKL.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- end mega menu -->
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end bottom header -->
+        </div>
+        <!-- end main header -->
+    </header>
+    <!-- end header -->
+
+    <!-- hero section -->
+    <div class="hero">
+        <div class="slider">
+            <div class="container">
+                <!-- slide item -->
+                <div class="slide active">
+                    <div class="info">
+                        <div class="info-content">
+                            <h3 class="top-down">
+                                Manija con cámara de retroceso
+                            </h3>
+                            <h2 class="top-down trans-delay-0-2">
+                                Toyota Hilux
+                            </h2>
+                            <p class="top-down trans-delay-0-4">
+                                Disponible en color negro o cromo
+                                <br />Plug and Play (no se cortan cables) <br />Líneas delimitadoras en tres colores: verde, amarillo y rojo <br />resistente a condiciones ambientales extremas <br />Angulo de visión de 170
+                            </p>
+                            <div class="top-down trans-delay-0-6">
+                                <button class="btn-flat btn-hover">
+                  <span>Pedir Ahora</span>
+                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img top-down">
+                        <img src="./images/camarareversahilux/5245-tm_thickbox_default.jpg" alt="">
+                    </div>
+                </div>
+                <!-- end slide item -->
+                <!-- slide item -->
+                <div class="slide">
+                    <div class="info">
+                        <div class="info-content">
+                            <h3 class="top-down">
+                                Pantalla de aplicación directa
+                            </h3>
+                            <h2 class="top-down trans-delay-0-2">
+                                Toyota Hilux
+                            </h2>
+                            <p class="top-down trans-delay-0-4">
+                                Plug and Play (no se cortan cables)<br /> Sistema operativo Android con descarga directa de aplicaciones
+                                <br /<br />> Pantalla FULL TOUCH de alta resolución<br /> Función de espejo de pantalla (Mirror link) o Car Play opcional<br /> Conexión 3G / 4G / Wi-Fi<br /> Navegación GPS<br /> Bluetooth 4.0 incorporado
+                                <br /> Doble puerto USB (Multiformatos)<br /> Admite entrada de cámara de reversa / frontal y entrada de DVR
+                                <br /> Compatible con mandos al volante
+                            </p>
+                            <div class="top-down trans-delay-0-6">
+                                <button class="btn-flat btn-hover">
+                  <span>Pedir Ahora</span>
+                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img right-left">
+                        <img src="./images/camarareversahilux/4877-tm_thickbox_default.jpg" alt="">
+                    </div>
+                </div>
+                <!-- end slide item -->
+                <!-- slide item -->
+                <div class="slide">
+                    <div class="info">
+                        <div class="info-content">
+                            <h3 class="top-down">
+                                Pantalla cabecera desmontable 10”
+                            </h3>
+                            <h2 class="top-down trans-delay-0-2">
+                                SIENNA
+                            </h2>
+                            <p class="top-down trans-delay-0-4">
+                                Reproductor de DVD integrado
+                                <br /> Puertos USB y SD laterales
+                                <br /> Entrada HDMI
+                                <br /> 2 entradas y 1 salida de video
+                                <br /> Transmisor infrarrojo integrado
+                                <br /> Compatible con videojuegos
+                                <br /> No incluye audífonos
+                                <br /> Compatible para cualquier vehículo
+                            </p>
+                            <div class="top-down trans-delay-0-6">
+                                <button class="btn-flat btn-hover">
+                  <span>Pedir ahora</span>
+                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img left-right">
+                        <img src="./images/pantalla/5e7e782128e0c-7ee4717a-9e9a-4bce-940f-c5a0c4376a5b-1600x1600.jpg" alt="">
+                    </div>
+                </div>
+                <!-- end slide item -->
+                <!-- slide item -->
+                <div class="slide">
+                    <div class="info">
+                        <div class="info-content">
+                            <h3 class="top-down">
+                                Antifaz
+                            </h3>
+                            <h2 class="top-down trans-delay-0-2">
+                                SIENNA
+                            </h2>
+                            <p class="top-down trans-delay-0-4">
+                                Protege el frente de su vehículo contra piedras, asfalto e insectos en carreteras
+                                <br /> Fabricado en dos piezas para fácil instalación sin necesidad de herramientas
+                                <br /> Fabricado en vinipiel strech para optimo ajuste, diseñado a la medida del auto
+                            </p>
+                            <div class="top-down trans-delay-0-6">
+                                <button class="btn-flat btn-hover">
+                  <span>Pedir ahora</span>
+                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img left-right">
+                        <img src="./images/antifaz/D_NQ_NP_968074-MLM45457318920_042021-O.jpg" alt="">
+                    </div>
+                </div>
+                <!-- end slide item -->
+                <!-- slide item -->
+                <div class="slide">
+                    <div class="info">
+                        <div class="info-content">
+                            <h3 class="top-down">
+                                Burrera Completa
+                            </h3>
+                            <h2 class="top-down trans-delay-0-2">
+                                NISSAN NP300 Frontier
+                            </h2>
+                            <p class="top-down trans-delay-0-4">
+                                Fabricada con acero de alta resistencia
+                                <br /> Disponible en color negro electrostático y cromo
+                                <br /> Diseño apegado al vehículo y exclusivo para cada modelo
+                                <br /> Cubre faros principales
+                                <br /> Contiene topes de hule
+                            </p>
+                            <div class="top-down trans-delay-0-6">
+                                <button class="btn-flat btn-hover">
+                  <span>Pedir ahora</span>
+                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img left-right">
+                        <img src="./images/burrera/c49c8e68-d981-49af-ac41-3b0605ca9446_1024x1024.jpg" alt="">
+                    </div>
+                </div>
+                <!-- end slide item -->
+                <!-- slide item -->
+                <div class="slide">
+                    <div class="info">
+                        <div class="info-content">
+                            <h3 class="top-down">
+                                Faros Auxiliares
+                            </h3>
+                            <h2 class="top-down trans-delay-0-2">
+                                NISSAN NP300 Frontier
+                            </h2>
+                            <p class="top-down trans-delay-0-4">
+                                Iluminación en foco de halógeno
+                                <br /> Compatibles con foco xenón o led
+                            </p>
+                            <div class="top-down trans-delay-0-6">
+                                <button class="btn-flat btn-hover">
+                  <span>Pedir ahora</span>
+                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img left-right">
+                        <img src="./images/faros/D_NQ_NP_736969-MLM44548497477_012021-O.webp" alt="">
+                    </div>
+                </div>
+                <!-- end slide item -->
+                <!-- slide item -->
+                <div class="slide">
+                    <div class="info">
+                        <div class="info-content">
+                            <h3 class="top-down">
+                                Biseles con diferentes funciones
+                            </h3>
+                            <h2 class="top-down trans-delay-0-2">
+                                NISSAN NP300 Frontier
+                            </h2>
+                            <p class="top-down trans-delay-0-4">
+                                Luz de día en tono blanco
+                                <br /> Cuartos y direccional tono ámbar
+                            </p>
+                            <div class="top-down trans-delay-0-6">
+                                <button class="btn-flat btn-hover">
+                  <span>Pedir ahora</span>
+                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img left-right">
+                        <img src="./images/biceles/D_NQ_NP_913288-MLM41332303804_042020-O.jpg" alt="">
+                    </div>
+                </div>
+                <!-- end slide item -->
+                <!-- slide item -->
+                <div class="slide">
+                    <div class="info">
+                        <div class="info-content">
+                            <h3 class="top-down">
+                                Camara de reversa para pantalla
+                            </h3>
+                            <h2 class="top-down trans-delay-0-2">
+                                NISSAN Kicks
+                            </h2>
+                            <p class="top-down trans-delay-0-4">
+                                Líneas delimitadoras en tres colores: verde, amarillo y rojo
+                                <br /> Resistente a condiciones ambientales extremas
+                                <br /> Angulo de visión de 170°
+                            </p>
+                            <div class="top-down trans-delay-0-6">
+                                <button class="btn-flat btn-hover">
+                  <span>Pedir ahora</span>
+                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img left-right">
+                        <img src="./images/camarareversa/kicks.jpg" alt="">
+                    </div>
+                </div>
+                <!-- end slide item -->
+            </div>
+            <!-- slider controller -->
+            <button class="slide-controll slide-next">
+        <i class='bx bxs-chevron-right'></i>
+      </button>
+            <button class="slide-controll slide-prev">
+        <i class='bx bxs-chevron-left'></i>
+      </button>
+            <!-- end slider controller -->
+        </div>
+    </div>
+    <!-- end hero section -->
+
+    <!-- promotion section -->
+    <div class="promotion">
+        <div class="row">
+            <div class="col-4 col-md-12 col-sm-12">
+                <div class="promotion-box">
+                    <div class="text">
+                        <h3>Toyota Hilux</h3>
+                        <button class="btn-flat btn-hover"><span>Tienda Productos</span></button>
+                    </div>
+                    <img src="./images/marcasautos/toyota-hilux-gr-sport-2450911.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-4 col-md-12 col-sm-12">
+                <div class="promotion-box">
+                    <div class="text">
+                        <h3>Toyota Sienna</h3>
+                        <button class="btn-flat btn-hover"><span>Tienda Productos</span></button>
+                    </div>
+                    <img src="./images/marcasautos/Sienna_versionXLE_2.png" alt="">
+                </div>
+            </div>
+            <div class="col-4 col-md-12 col-sm-12">
+                <div class="promotion-box">
+                    <div class="text">
+                        <h3>Nissan NP300 Frontier</h3>
+                        <button class="btn-flat btn-hover"><span>Tienda Productos</span></button>
+                    </div>
+                    <img src="./images/marcasautos/nissan-np300-frontier-2020-2022-1619079373.8772006.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end promotion section -->
+
+    <!-- product list -->
+    <div class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Últimos productos</h2>
+            </div>
+            <div class="row" id="latest-products">
+                <div class="col-3 col-md-6 col-sm-12">
+                    <div class="product-card">
+                        <div class="product-card-img">
+                            <img src="./images/JBL_Quantum_400_Product Image_Hero 02.png" alt="">
+                            <img src="./images/JBL_Quantum_400_Product Image_Hero Mic Up.webp" alt="">
+                        </div>
+                        <div class="product-card-info">
+                            <div class="product-btn">
+                                <button class="btn-flat btn-hover btn-shop-now">shop now</button>
+                                <button class="btn-flat btn-hover btn-cart-add">
+                  <i class='bx bxs-cart-add'></i>
+                </button>
+                                <button class="btn-flat btn-hover btn-cart-add">
+                  <i class='bx bxs-heart'></i>
+                </button>
+                            </div>
+                            <div class="product-card-name">
+                                JBL Quantum 400
+                            </div>
+                            <div class="product-card-price">
+                                <span><del>$300</del></span>
+                                <span class="curr-price">$200</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-footer">
+                <a href="./products.html" class="btn-flat btn-hover">view all</a>
+            </div>
+        </div>
+    </div>
+    <!-- end product list -->
+
+    <!-- special product -->
+    <div class="bg-second">
+        <div class="section container">
+            <div class="row">
+                <div class="col-4 col-md-4">
+                    <div class="sp-item-img">
+                        <img src="./images/kisspng-beats-electronics-headphones-apple-beats-studio-red-headphones.png" alt="">
+                    </div>
+                </div>
+                <div class="col-7 col-md-8">
+                    <div class="sp-item-info">
+                        <div class="sp-item-name">JBL TUNE 750TNC</div>
+                        <p class="sp-item-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dignissimos itaque et eaque quod harum vero autem? Reprehenderit enim non voluptate! Qui provident modi est non eius ratione, debitis iure.
+                        </p>
+                        <button class="btn-flat btn-hover">shop now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end special product -->
+
+    <!-- product list -->
+    <div class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>best selling</h2>
+            </div>
+            <div class="row" id="best-products">
+                <div class="col-3 col-md-6 col-sm-12">
+                    <div class="product-card">
+                        <div class="product-card-img">
+                            <img src="./images/JBL_Quantum_400_Product Image_Hero 02.png" alt="">
+                            <img src="./images/JBL_Quantum_400_Product Image_Hero Mic Up.webp" alt="">
+                        </div>
+                        <div class="product-card-info">
+                            <div class="product-btn">
+                                <button class="btn-flat btn-hover btn-shop-now">shop now</button>
+                                <button class="btn-flat btn-hover btn-cart-add">
+                  <i class='bx bxs-cart-add'></i>
+                </button>
+                                <button class="btn-flat btn-hover btn-cart-add">
+                  <i class='bx bxs-heart'></i>
+                </button>
+                            </div>
+                            <div class="product-card-name">
+                                JBL Quantum 400
+                            </div>
+                            <div class="product-card-price">
+                                <span><del>$300</del></span>
+                                <span class="curr-price">$200</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-footer">
+                <a href="./products.html" class="btn-flat btn-hover">view all</a>
+            </div>
+        </div>
+    </div>
+    <!-- end product list -->
+
+    <!-- blogs -->
+    <div class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>latest blog</h2>
+            </div>
+            <div class="blog">
+                <div class="blog-img">
+                    <img src="./images/JBL_Quantum400_Lifestyle1.png" alt="">
+                </div>
+                <div class="blog-info">
+                    <div class="blog-title">
+                        Lorem ipsum dolor sit amet
+                    </div>
+                    <div class="blog-preview">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, eligendi dolore. Sapiente omnis numquam mollitia asperiores animi, veritatis sint illo magnam, voluptatum labore, quam ducimus! Nisi doloremque praesentium laudantium repellat.
+                    </div>
+                    <button class="btn-flat btn-hover">read more</button>
+                </div>
+            </div>
+            <div class="blog row-revere">
+                <div class="blog-img">
+                    <img src="./images/JBL_TUNE220TWS_Lifestyle_black.png" alt="">
+                </div>
+                <div class="blog-info">
+                    <div class="blog-title">
+                        Lorem ipsum dolor sit amet
+                    </div>
+                    <div class="blog-preview">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, eligendi dolore. Sapiente omnis numquam mollitia asperiores animi, veritatis sint illo magnam, voluptatum labore, quam ducimus! Nisi doloremque praesentium laudantium repellat.
+                    </div>
+                    <button class="btn-flat btn-hover">read more</button>
+                </div>
+            </div>
+            <div class="section-footer">
+                <a href="#" class="btn-flat btn-hover">view all</a>
+            </div>
+        </div>
+    </div>
+    <!-- end blogs -->
+
+    <!-- footer -->
+    <footer class="bg-second">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 col-md-6">
+                    <h3 class="footer-head">Products</h3>
+                    <ul class="menu">
+                        <li><a href="#">Help center</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">product help</a></li>
+                        <li><a href="#">warranty</a></li>
+                        <li><a href="#">order status</a></li>
+                    </ul>
+                </div>
+                <div class="col-3 col-md-6">
+                    <h3 class="footer-head">services</h3>
+                    <ul class="menu">
+                        <li><a href="#">Help center</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">product help</a></li>
+                        <li><a href="#">warranty</a></li>
+                        <li><a href="#">order status</a></li>
+                    </ul>
+                </div>
+                <div class="col-3 col-md-6">
+                    <h3 class="footer-head">support</h3>
+                    <ul class="menu">
+                        <li><a href="#">Help center</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">product help</a></li>
+                        <li><a href="#">warranty</a></li>
+                        <li><a href="#">order status</a></li>
+                    </ul>
+                </div>
+                <div class="col-3 col-md-6 col-sm-12">
+                    <div class="contact">
+                        <h3 class="contact-header">
+                            ATShop
+                        </h3>
+                        <ul class="contact-socials">
+                            <li>
+                                <a href="#">
+                                    <i class='bx bxl-facebook-circle'></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class='bx bxl-instagram-alt'></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class='bx bxl-youtube'></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class='bx bxl-twitter'></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="subscribe">
+                        <input type="email" placeholder="ENTER YOUR EMAIL">
+                        <button>subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- app js -->
+    <script src="./js/app.js"></script>
+    <script src="./js/inicio.js"></script>
+</body>
+
+</html>
